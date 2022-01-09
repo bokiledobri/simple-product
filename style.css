@@ -40,14 +40,14 @@ body::before{
   font-size: 1em;
   font-weight: 900;
   text-transform: uppercase;
-  border: 3px black solid;
-  border-radius: 2px;
-  background-color: blue;
+  border: 3px solid black;
+  border-radius: 0.3rem;
+  background-color: green;
   color: pink;
 }
 
 .btn:hover {
-  background-color: #224295;
+  background-color: #239543;
   color: #000;
   border-radius: 0.4rem;
   transition: background-color 120ms;
@@ -240,7 +240,11 @@ nav > ul {
   justify-content: center;
   height: 125px;
   width: 20vw;
-  color: #224295;
+  color: #239543;
+}
+
+.material-icons.large{
+   font-size: 3.5rem;
 }
 
 @media (max-width: 550px) {
@@ -293,17 +297,17 @@ nav > ul {
 }
 
 .product {
-    position: relative;
+  position: relative;
   display: flex;
   flex-direction: column;
   align-items: center;
   text-align: center;
   width: calc(100% / 3);
-  margin: 10px;
-  border: 1px solid #000;
+  margin: 1rem;
+  border: 1px solid green;
   clip-path: url(#heart-path);
-    background-color: transparent;
-    border-radius: 0.3rem;
+  background-color: transparent;
+  border-radius: 0.3rem;
 }
 
 .heart:hover{
@@ -347,7 +351,7 @@ nav > ul {
 
 
 .product > .level {
-  background-color: #234395;
+  background-color: #239543;
   color: black;
   padding: 15px 0;
   width: 100%;
@@ -383,11 +387,13 @@ footer {
   margin-top: 30px;
   background-color: red;
   padding: 20px;
+  padding-bottom: 0.5rem;
 }
 
 footer > ul {
   display: flex;
   justify-content: space-evenly;
+  border-bottom: 1px solid black;
 }
 
 footer > ul > li {
